@@ -1,0 +1,53 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: ;
+    font-family: ;
+    font-weight: ;
+    font-style: italic;
+    /* background-color: aqua; */
+}
+
+
+p {
+    /* font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* color: aqua; */
+}
+
+
+/* h1,
+h2,
+h3,
+h4 {
+    font-weight: 900;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+h1 {
+    color: rgb(0,0,0);
+}
+
+
+.heading{
+    font-size: 30px;
+}
+
+
+h2{
+    /* background-color: blueviolet; */
+    /* opacity: 1; */
+}
+
+
+/* .div>h2{
+    background-color: rgb(236, 35, 35);
+} */
+
+div{
+    background-color: #33691E;
+    opacity: 0.9;
+}
+
+

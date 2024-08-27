@@ -1,0 +1,102 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #F5555B;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.nav-links {
+    width: 55%;
+}
+
+.nav-btn {
+    width: 20%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+   
+}
+.nav-links a{
+    color: white;
+    font-size: 20px;
+}
+
+.nav-btn ul {
+    display: flex;
+}
+.nav-btn button{
+    padding:  10px 20px;
+}
+
+/* ---------------section 2 Banner */
+.banner{
+    background-color: #FDB0B0;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .left-con{
+    width: 60%;
+}
+
+.banner > .left-con{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+     justify-content: center; 
+     margin-left: 10%;
+    /* align-items: center; */
+}
+
+.left-con h1,.left-con h2{
+    font-family: fantasy, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+}
+.left-con h2{
+    color: red;
+}
+
+/* ------------------ */
+
+.section-3{
+    background-color: #FE7474;
+
+}
+.flavours{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flv-img img{
+    width: 100%;
+    /* border: ; */
+}
+.flavours> .flv{
+    width: 33%;
+    
+}
+
+.flv-img{
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 100%;
+    
+}
